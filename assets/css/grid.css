@@ -1,0 +1,46 @@
+.grid{
+    display:block;
+    padding: 0;
+    width: 100%;
+}
+.grid.wide{
+    margin:0 auto;
+    max-width: 1200px;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 -8px 0 -8px;
+}
+.col{
+    padding: 0 8px 0 8px;
+}
+
+.c-4{
+    flex: 0 0 33.33333%;
+    max-width:  33.33333%;
+}
+
+/* tablet */
+@media  (min-width:740px) {
+
+
+}
+/* PC medium resolution > */
+@media (min-width: 1113px) {
+
+
+}
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 644px;
+    }
+}
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .wide {
+        width: 984px;
+    }
+
+}
